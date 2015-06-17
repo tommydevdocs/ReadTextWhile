@@ -5,7 +5,7 @@ Module Module1
     Sub Main()
         Dim myReader As StreamReader = New StreamReader("Values.txt")
 
-        Dim line As String = ""
+        Dim line As String = "" & ", " & ""
 
         While Not IsNothing(line)
 
